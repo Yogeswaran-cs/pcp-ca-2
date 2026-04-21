@@ -37,7 +37,7 @@ const ActivityList = () => {
             <div className="activity-header">
               <h3>{activity.name}</h3>
               <span className={`goal-badge ${activity.goalAchieved ? 'achieved' : ''}`}>
-                {activity.goalAchieved ? '✓ Goal Achieved' : 'Goal Pending'}
+                {activity.goalAchieved ? 'Goal Achieved' : 'Goal Pending'}
               </span>
             </div>
 
